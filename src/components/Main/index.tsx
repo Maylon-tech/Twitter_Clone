@@ -6,7 +6,7 @@ import {
   Header, 
   BackIcon, 
   ProfileInfo,
-  ButtonMenu,
+  BottonMenu,
   SearchIcon,
   HomeIcon,
   BellIcon,
@@ -29,12 +29,12 @@ const Main: React.FC = () => {
 
       <ProfilePage /> 
 
-      <ButtonMenu>
+      <BottonMenu>
         <HomeIcon />
         <SearchIcon />
         <BellIcon />
         <EmailIcon />
-      </ButtonMenu> 
+      </BottonMenu> 
 
     </Container>
   )

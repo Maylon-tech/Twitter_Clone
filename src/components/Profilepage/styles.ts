@@ -64,4 +64,6 @@ export const LocationIcon = styled(LocationOn)`
   ${iconCSS}
 `
 
+
+
 export const Followage = styled.div``

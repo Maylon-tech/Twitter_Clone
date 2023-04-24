@@ -19,7 +19,7 @@ const Profilepage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        <EditButton>Editar Perfil</EditButton>
+        {/* <EditButton>Editar Perfil</EditButton> */}
 
         <h1>Nemoto maylon</h1>
         <h2>@nemotoDow@gmail.com</h2>
