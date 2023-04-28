@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Feed from '../Feed/index'
 import { 
   Container,
   Banner,
@@ -11,7 +11,7 @@ import {
   Followage
 } from './styles';
 
-const Profilepage: React.FC = () => {
+const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
@@ -19,7 +19,7 @@ const Profilepage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        {/* <EditButton>Editar Perfil</EditButton> */}
+        <EditButton>Editar Perfil</EditButton>
 
         <h1>Nemoto maylon</h1>
         <h2>@nemotoDow@gmail.com</h2>
@@ -50,8 +50,10 @@ const Profilepage: React.FC = () => {
         </Followage>
 
       </ProfileData>
+
+      <Feed />
     </Container>
   )
 }
 
-export default Profilepage;
+export default ProfilePage;

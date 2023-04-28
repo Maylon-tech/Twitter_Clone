@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePage from '../Profilepage/index'
+import ProfilePage from '../ProfilePage/index'
 
 import { 
   Container, 
