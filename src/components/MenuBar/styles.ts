@@ -52,6 +52,7 @@ export const MenuButton = styled.button`
 
   > span {
     display: none;
+    color: #fff;
   }
   
   @media (min-width: 1280px) {
