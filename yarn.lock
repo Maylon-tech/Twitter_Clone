@@ -7975,6 +7975,11 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-sticky-box@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-sticky-box/-/react-sticky-box-2.0.4.tgz#ec5f7f890465bcc13288939044765d818f3503d3"
+  integrity sha512-EcnT4fpyyrBwyy5tsWViBTFBMsJZijDC78s2D/GlqrKuU0vsmW+jNc/Ubs1C4/HF/YmTZ90Y5GIGLQMzScQQbA==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

@@ -28,13 +28,25 @@ export const SearchInput = styled.input`
   width: 100%;
   height: 39px;
   font-size: 14px;
-  padding: 0 10px 52px;
+  padding: 0 10px 0 52px;
   border-radius: 19.5px;
   background: var(--serach);
   position: relative;
+  color: #fff;
 
   &::placeholder {
     color: var(--gray);
+  }
+  ~ svg {
+    position: relative;
+    top: -33px;
+    left: 15px;
+    z-index: 1;
+    transition: 180ms ease-in-out;
+  }
+  outline: 0;
+  &:focus {
+    border: 1px solid var(--twitter);
   }
 `
 
@@ -45,5 +57,14 @@ export const SearchIcon = styled(Search)`
   fill: var(--gray);
 `
 
-export const Body = styled.div``
+export const Body = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 57px 24px 200px;
+  margin-top: 3px;
+
+  > div + div {
+    margin-top: 15px;
+  }
+`
   
